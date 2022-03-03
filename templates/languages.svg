@@ -9,11 +9,12 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
+  fill: rgb(13, 17, 23);
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
+  border: 1px solid rgb(48, 54, 61);
 }
 
 foreignObject {
@@ -27,8 +28,8 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
+  color: #c9d1d9;
+  fill: #c9d1d9;
 }
 
 ul {
@@ -64,7 +65,7 @@ div.ellipsis {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: rgb(139, 148, 158);
   margin-right: 0.5ch;
   vertical-align: top;
 }
@@ -87,11 +88,11 @@ div.ellipsis {
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
+  color: #c9d1d9;
 }
 
 .percent {
-  color: rgb(88, 96, 105)
+  color: rgb(139, 148, 158)
 }
 </style>
 <g>
